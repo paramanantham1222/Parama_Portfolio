@@ -20,7 +20,15 @@ li{
     font-size: 15px;
     font-weight: bold;
     border: 2px solid transparent;
+    transition: 0.3s ease-in-out;
 }
 .nav-link:hover{
     border-bottom: 2px solid blue;
+    transition: 0.3s ease-in-out;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
