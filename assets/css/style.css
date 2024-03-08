@@ -39,6 +39,53 @@ section{
     color: rgb(12, 110, 253);
     font-family: "Madimi One", sans-serif;
 }
-h5{
+.a{
     font-family: "Dancing Script", cursive;
+}
+.nam{
+    color: black;
+    font-weight: 100;
+    font-size: 60px;
+}
+.course{
+    color: red;
+    font-weight: 400;
+    font-size: 30px;
+}
+.nav-item i{
+    padding: 10px 10px 0px 10px;
+}
+.about_p{
+    color: black;
+    font-size: 13px;
+}
+.details{
+    list-style: none;
+}
+.details i{
+    padding: 10px 20px 0px 10px;
+    color: blue;
+}
+.details b{
+    color: red;
+
+}
+.dwnld_cv{
+    border:2px solid red;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#about img{
+    
+    margin-top: 50px;
+    border-radius: 2000px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
