@@ -13,6 +13,10 @@ body{
     font-style: normal;
 
 }
+#home{
+    background: linear-gradient(360deg, #ffffff 50%, #7a94f3da 100% );
+}
+
 .bold{
     font-size: 30px;
 }
@@ -24,10 +28,14 @@ li{
     font-weight: bold;
     border: 2px solid transparent;
     transition: 0.3s ease-in-out;
+    border-radius: 12px;
+    
 }
+
 .nav-link:hover{
     border-bottom: 2px solid blue;
     transition: 0.3s ease-in-out;
+    
 }
 section{
     min-height: 100vh;
