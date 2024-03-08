@@ -89,3 +89,14 @@ section{
     background-color: white;
     z-index: 1;
 }
+.card img{
+    height: 200px;
+    transition: all 0.5s ease-in-out;
+}
+.inner{
+    overflow: hidden;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out;
+}
